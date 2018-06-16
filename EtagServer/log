@@ -1,0 +1,23 @@
+LOG:	param init...
+[ 2015 02/11 02:34:48 ] LOG:	param init OK!
+[ 2015 02/11 02:34:48 ] LOG:	open the reader...
+[ 2015 02/11 02:34:48 ] LOG:	open the reader OK!
+[ 2015 02/11 02:34:48 ] LOG:	connect the reader...
+[ 2015 02/11 02:34:50 ] LOG:	connect the reader OK!
+[ 2015 02/11 02:34:50 ] LOG:	connect the server...
+[ 2015 02/11 02:34:50 ] LOG:	connect the server OK!
+[ 2015 02/11 02:34:50 ] LOG:	register the device...
+[ 2015 02/11 02:34:50 ] LOG:	register the device OK
+[ 2015 02/11 02:34:50 ] LOG:	create the RFID pthread OK!
+[ 2015 02/11 02:34:51 ] ASK:	Start read!
+[ 2015 02/11 02:34:51 ] RE:	E0040000AC6B5306
+[ 2015 02/11 02:34:54 ] ASK:	Start read!
+[ 2015 02/11 02:34:54 ] RE:	E0040000AC6B5306
+[ 2015 02/11 02:34:57 ] ASK:	Start read!
+[ 2015 02/11 02:34:57 ] RE:	E0040000AC6B5306
+[ 2015 02/11 02:35:00 ] ASK:	Start read!
+[ 2015 02/11 02:35:00 ] ERR:	the server's connection is lost!
+[ 2015 02/11 02:35:00 ] MSG:	Retry to connect to the server...
+[ 2015 02/11 02:35:00 ] MSG:	connected to the server!
+[ 2015 02/11 02:35:00 ] MSG:	register to the server!
+[ 2015 02/11 02:35:00 ] RE:	E0040000AC6B5306

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackServer", "main.vcproj", "{DAACC5C5-CBBE-4AFC-A1EA-C29535751FBF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BackServerProxy", "..\BackServerProxy\CustomsProxy\CJZPlatformProxy.vcproj", "{F57B8D5D-6B42-4693-ADF5-8C839B565B19}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAACC5C5-CBBE-4AFC-A1EA-C29535751FBF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAACC5C5-CBBE-4AFC-A1EA-C29535751FBF}.Debug|Win32.Build.0 = Debug|Win32
+		{DAACC5C5-CBBE-4AFC-A1EA-C29535751FBF}.Release|Win32.ActiveCfg = Release|Win32
+		{DAACC5C5-CBBE-4AFC-A1EA-C29535751FBF}.Release|Win32.Build.0 = Release|Win32
+		{F57B8D5D-6B42-4693-ADF5-8C839B565B19}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F57B8D5D-6B42-4693-ADF5-8C839B565B19}.Debug|Win32.Build.0 = Debug|Win32
+		{F57B8D5D-6B42-4693-ADF5-8C839B565B19}.Release|Win32.ActiveCfg = Release|Win32
+		{F57B8D5D-6B42-4693-ADF5-8C839B565B19}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

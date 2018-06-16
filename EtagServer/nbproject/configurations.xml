@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>common.h</itemPath>
+      <itemPath>config.h</itemPath>
+      <itemPath>includes.h</itemPath>
+      <itemPath>moxa.h</itemPath>
+      <itemPath>msg.h</itemPath>
+      <itemPath>packet_format.h</itemPath>
+      <itemPath>reader1000api.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>common.c</itemPath>
+      <itemPath>config.c</itemPath>
+      <itemPath>main.c</itemPath>
+      <itemPath>moxa_setting.c</itemPath>
+      <itemPath>msg.c</itemPath>
+      <itemPath>net_handle.c</itemPath>
+      <itemPath>reader1000api.c</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <incDir>
+            <pElem>lib</pElem>
+          </incDir>
+        </cTool>
+        <linkerTool>
+          <output>/root/jiezisoft/bin/${CND_CONF}/${CND_PLATFORM}/etagserver</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibLibItem>xml2</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="moxa.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="moxa_setting.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="msg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="net_handle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packet_format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reader1000api.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reader1000api.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="1">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+          <incDir>
+            <pElem>lib</pElem>
+          </incDir>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+        <linkerTool>
+          <output>/root/jiezisoft/bin/${CND_CONF}/${CND_PLATFORM}/etagserver</output>
+          <linkerLibItems>
+            <linkerLibStdlibItem>PosixThreads</linkerLibStdlibItem>
+            <linkerLibLibItem>xml2</linkerLibLibItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="common.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="common.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="config.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="config.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="includes.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="moxa.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="moxa_setting.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="msg.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="msg.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="net_handle.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="packet_format.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="reader1000api.c" ex="false" tool="0" flavor2="0">
+      </item>
+      <item path="reader1000api.h" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>

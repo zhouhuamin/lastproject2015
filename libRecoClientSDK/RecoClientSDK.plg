@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RecoClientSDK - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ZHOUHM~1\AppData\Local\Temp\RSPB942.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_CONSOLE" /D "_MBCS" /Fp"Debug/RecoClientSDK.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\5_jiezisoft\jiezisoft\source\libRecoClientSDK\RecoClientSDK.cpp"
+]
+Creating command line "cl.exe @C:\Users\ZHOUHM~1\AppData\Local\Temp\RSPB942.tmp" 
+Creating temporary file "C:\Users\ZHOUHM~1\AppData\Local\Temp\RSPB943.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:console /incremental:yes /pdb:"Debug/RecoClientSDK.pdb" /debug /machine:I386 /out:"Debug/RecoClientSDK.exe" /pdbtype:sept 
+.\Debug\RecoClientSDK.obj
+]
+Creating command line "link.exe @C:\Users\ZHOUHM~1\AppData\Local\Temp\RSPB943.tmp"
+<h3>Output Window</h3>
+Compiling...
+RecoClientSDK.cpp
+Linking...
+RecoClientSDK.obj : error LNK2001: unresolved external symbol "public: int __thiscall CControlCmdHandler::Init(char *,int)" (?Init@CControlCmdHandler@@QAEHPADH@Z)
+RecoClientSDK.obj : error LNK2001: unresolved external symbol "public: __thiscall CControlCmdHandler::CControlCmdHandler(void)" (??0CControlCmdHandler@@QAE@XZ)
+RecoClientSDK.obj : error LNK2001: unresolved external symbol "public: void __thiscall CControlCmdHandler::RecoConta(char *,char *)" (?RecoConta@CControlCmdHandler@@QAEXPAD0@Z)
+RecoClientSDK.obj : error LNK2001: unresolved external symbol "public: int __thiscall CControlCmdHandler::Stop(void)" (?Stop@CControlCmdHandler@@QAEHXZ)
+RecoClientSDK.obj : error LNK2001: unresolved external symbol "public: int __thiscall CControlCmdHandler::SetRecoResultCallback(void (__cdecl*)(char *,struct JZ_RecoContaID *))" (?SetRecoResultCallback@CControlCmdHandler@@QAEHP6AXPADPAUJZ_RecoContaID@@@Z@Z)
+LIBCD.lib(crt0.obj) : error LNK2001: unresolved external symbol _main
+Debug/RecoClientSDK.exe : fatal error LNK1120: 6 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+RecoClientSDK.exe - 7 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

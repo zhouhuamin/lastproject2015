@@ -1,0 +1,4 @@
+[2015032317273252824]set device info succ,object = 135778128,device IP = 192.168.1.64, device ID = -1073745024, channel num = 0,										   cmd port = 8000, user = admin
+[2015032317273253949]--------start log in thread
+[20150323172738881653]********device logion fail ,device ip is 192.168.1.64 ,error no is 7
+[20150323172743928235]reconnect to device succ!device ip is 192.168.1.64 

@@ -1,0 +1,3 @@
+[20150324143757401418]set device info succ,object = 135418912,device IP = 192.168.1.64, device ID = -1073745024, channel num = 0,										   cmd port = 8000, user = admin
+[20150324143757404208]--------start log in thread
+[20150324143757423013]reconnect to device succ!device ip is 192.168.1.64 

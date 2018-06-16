@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" ?>   
+<Config>  
+    <CHECK_CORRECTOR_LISTEN_PORT>19001</CHECK_CORRECTOR_LISTEN_PORT>
+</Config>  
